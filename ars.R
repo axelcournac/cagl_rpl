@@ -1,7 +1,7 @@
 library(GenomicRanges)
 library(GenomicAlignments)
 
-# listing BAM files 
+# listing BAM files    
 bams = list.files(pattern="*sorted*.bam$")
 
 ## Definition of ARS intervals 
